@@ -1,7 +1,14 @@
+import { getFeaturedEvents } from "./dummy-data";
+import EventItem from "../components/events/EventItem";
+
 export const HomePage = () => {
+  const items = getFeaturedEvents() || [];
+  
   return (
     <div>
-      <h1>hello world!</h1>
+      <ul>
+      {items.map((item: string | any) => <EventItem {...item}/>)}
+      </ul>
     </div>
   );
 };
