@@ -3,11 +3,13 @@ import EventItem from "../components/events/EventItem";
 
 export const HomePage = () => {
   const items = getFeaturedEvents() || [];
-  
+
   return (
     <div>
       <ul>
-      {items.map((item: string | any) => <EventItem {...item}/>)}
+        {items.map((item: string | any) => (
+          <EventItem {...item} />
+        ))}
       </ul>
     </div>
   );
