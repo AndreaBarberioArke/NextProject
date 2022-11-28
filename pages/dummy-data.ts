@@ -8,6 +8,8 @@ export const DUMMY_EVENTS = [
     date: "2021-05-12",
     image: "assets/images/coding-event.jpg",
     isFeatured: false,
+    imageAlt:"Coding image",
+    address:"My House"
   },
   {
     id: "e2",
@@ -18,6 +20,8 @@ export const DUMMY_EVENTS = [
     date: "2021-05-30",
     image: "assets/images/introvert-event.jpg",
     isFeatured: true,
+    imageAlt:"Coding image",
+    address:"The WhiteHouse"
   },
   {
     id: "e3",
@@ -28,6 +32,8 @@ export const DUMMY_EVENTS = [
     date: "2022-04-10",
     image: "assets/images/extrovert-event.jpg",
     isFeatured: true,
+    imageAlt:"Coding image",
+    address:"Ohio"
   },
 ];
 
